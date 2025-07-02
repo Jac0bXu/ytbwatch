@@ -1,0 +1,10 @@
+# Core dependencies
+pyyaml>=6.0
+requests>=2.25.0
+
+# YouTube downloading (you may need to adjust based on your ytb_list module)
+yt-dlp>=2023.1.6
+
+# Optional: for better async support
+aiohttp>=3.8.0
+aiofiles>=0.8.0

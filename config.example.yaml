@@ -1,0 +1,25 @@
+# YouTube Monitor Configuration Example
+# Copy this file to config.yaml and fill in your actual values
+
+# YouTube API Configuration
+youtube_api_key: "YOUR_YOUTUBE_API_KEY_HERE"
+
+# Check interval in minutes (how often to check for new videos)
+check_interval_minutes: 60
+
+# YouTube channels to monitor
+# Replace with actual channel IDs you want to monitor
+youtube_channels:
+  "UCxxxxxxxxxxxxxxxxxxxxxx":
+    name: "Example Channel 1"
+    # Optional: add any channel-specific configuration here
+  
+  "UCyyyyyyyyyyyyyyyyyyyyyy":
+    name: "Example Channel 2"
+    # Optional: add any channel-specific configuration here
+
+# Optional: Download settings (if used by ytb_list module)
+download_settings:
+  quality: "best"
+  format: "mp4"
+  output_directory: "../downloads"

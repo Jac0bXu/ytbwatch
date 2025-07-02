@@ -205,3 +205,37 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Security - Configuration files with credentials
+config.yaml
+config.yml
+*.config.yaml
+*.config.yml
+.env
+.env.local
+.env.production
+
+# Downloaded content and metadata
+downloads/
+metadata/
+*.mp4
+*.webm
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+
+# Logs
+*.log
+logs/
+
+# Runtime files
+.cache/
+temp/
+tmp/
